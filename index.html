@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HeadSweet</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="banner">
+		<div class="container">
+			<h1>Candies can now cure you</h1>
+			<h2>HeadSweet produces candies that treat headaches and muscle cramps </h2>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="content">
+		<h1>HeadSweet</h1>
+			<h2>What is HeadSweet ?</h2>
+			<p>HeadSweet is a english firm, created by Stan Lelievre in 2024. We produces candies which are able to cure headaches and muscle cramps by rehydrating your body in less than 5 minutes. Indeed, this two kinds of injuries appears because of dehydration.</p>
+
+			<h2>HeadSweet's CEO</h2>
+			<img class="avatar" src="images/profile-picture.jpg" alt="Stan Lelievre">
+		</div>
+
+		<div class="content">
+			<h2>HeadSweet's manufacture sites</h2>
+			<p>HeadSweet is looking for committed people with production experience, if this suits you, apply!</p>
+			<h2>Application form</h2>
+
+			<form action="traitement.php" method="POST">
+			    <label for="nom">Name :</label>
+			    <input type="text" id="nom" name="nom" required>
+			    <br><br>
+
+			    <label for="email">Email :</label>
+			    <input type="email" id="email" name="email" required>
+			    <br><br>
+
+			    <label for="telephone">Phone :</label>
+			    <input type="tel" id="telephone" name="telephone">
+			    <br><br>
+
+			    <label for="site">Manufacture Site :</label>
+			    <select id="choix" name="choix">
+			    <option value="option1">London</option>
+	        	<option value="option2">Boston</option>
+	        	<option value="option3">Shanghaï</option>
+			    <br><br>
+
+			  	<input type="submit" value="Envoyer">
+			  	<br><br>
+			</form>
+
+		</div>
+				<div class="cards">
+					<div class="card">
+						<img src="images/boston-site.jpg" alt="HeadSweet Boston">
+						<h3>Boston</h3>
+					</div>
+
+					<div class="card">
+						<img src="images/shanghai-site.jpeg" alt="HeadSweet Shanghaï">
+						<h3>Shanghaï</h3>
+					</div>
+		
+
+					<div class="card">
+						<img src="images/london-site.avif" alt="HeadSweet London">
+						<h3>London</h3>
+					</div>	
+				</div>
+				
+	</div>
+</body>
+</html>
